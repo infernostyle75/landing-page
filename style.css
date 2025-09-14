@@ -2,6 +2,10 @@
     font-family: 'Roboto';
 }
 
+body {
+    margin: 0px;
+}
+
 .nav {
     background-color: #1F2937;
     color: white;
@@ -97,4 +101,55 @@ li {
 .bottom > .author {
     font-size: 18px;
     font-weight: bold;
+}
+
+.cta {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-box {
+    padding: 25px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.cta-left {
+    padding: 30px;
+}
+
+.cta-right {
+    padding: 30px;
+}
+
+.cta-left > h1 {
+    font-size: 18px;
+    color: white;
+}
+
+.cta-left > p {
+    color: white;
+}
+
+.cta-right > button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
 }
